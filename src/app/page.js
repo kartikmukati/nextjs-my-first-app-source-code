@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <Fragment>
       <Button link="/events"><span>All Events</span></Button>
-      <EventSearch onSearch={findEventsHandler}/>
+      <EventSearch onSearch={findEventsHandler}></EventSearch>
       <EventList items={featuredEvents}/>
    </Fragment>
   )
